@@ -1,0 +1,87 @@
+.heading {
+    background-color: aliceblue;
+     height: 100px;
+     border: 5px solid black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top:40px;
+    margin-right: 40px;
+    
+
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    background-color: #484549 ;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 2%;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+  
+    
+
+}
+.button-item{
+   background-color:rgba(180, 241, 169);
+   text-align: center;
+   color: white;
+   border: 2px solid black;
+   border-radius: 12px;
+   display: inline-block;
+   margin: 10px;
+   padding: 25px;
+   cursor: pointer;
+  font-size: 25px ;
+  box-shadow: 10px 10px 5px 1px #BEE8DB;
+
+  
+
+}
+.button-item:hover{
+  background-color: white;
+  color: black;
+  border:2px solid rgb(64, 12, 221);
+  box-shadow: 10px 10px 5px 1px lightblue;
+
+
+}
+.calc{
+    margin-top: 10px;
+    background-color:black;
+   border: 2px solid whitesmoke;
+   border-radius: 12px;
+   height:618px ;
+   margin-right: 10px;
+
+}
+.display{
+    background-color: whitesmoke;
+     height: 100px;
+     border: 2px solid rgb(241, 227, 76);
+     color: black;
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+    margin-left: 40px;
+    margin-top:30px;
+    margin-right: 40px;
+
+    
+
+}
+#display1{
+    text-align: right;
+    font-size: 25px;
+    color: black;
+    margin-right: 3%;
+  
+}
+h2{margin-top: 30px;
+    text-align: center;   
+}
+body {
+    background-color: aqua;
+   width: 100%;
+}

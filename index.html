@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./calc.js"></script>
+</head>
+<body>
+    <div class="heading">
+        <h2>My Calculator</h2>
+    </div>
+    <div class="calc">
+    <div class="display" >
+        <p id="display1" name="display12" ></p>
+    </div>
+    <div class="buttons">
+        <button class="button-item" type="button" value="1"  onclick="Buttondisplay(1)">1</button>
+        <button class="button-item" type="button" value="2" id="btn2" onclick="Buttondisplay(2)">2</button>
+        <!-- https://www.w3schools.com/css/css_grid.asp-->
+        <button class="button-item" type="button" value="3" id="btn1" onclick="Buttondisplay(3)">3</button>
+        <button class="button-item"type="button" value="+" id="btn1" onclick="Buttondisplay('+')">+</button>
+        <button class="button-item" type="button" value="4" id="btn1" onclick="Buttondisplay(4)">4</button>
+        <button class="button-item" type="button" value="5" id="btn1" onclick="Buttondisplay(5)">5</button>
+        <button class="button-item" type="button" value="6" id="btn1" onclick="Buttondisplay(6)">6</button>
+        <button class="button-item" type="button" value="-" id="btn1" onclick="Buttondisplay('-')">-</button>
+        <button class="button-item" type="button" value="7" id="btn1" onclick="Buttondisplay(7)">7</button>
+        <button class="button-item" type="button" value="8" id="btn1" onclick="Buttondisplay(8)">8</button>
+        <button class="button-item" type="button" value="9" id="btn1" onclick="Buttondisplay(9)">9</button>
+        <button class="button-item" type="button" value="=" id="btn1" onclick="solve()">=</button>
+        <button class="button-item" type="button" value="*" id="btn1" onclick="Buttondisplay('*')">*</button>
+        <button class="button-item" type="button" value="0" id="btn1" onclick="Buttondisplay(0)">0</button>
+        <button class="button-item" type="button" value="/" id="btn1" onclick="Buttondisplay('/')">/</button>
+        <button class="button-item" type="button" value="ce" id="btn1" onclick= "Clear()">CE</button>
+        
+    </div>
+</div>
+</body>
+</html>
